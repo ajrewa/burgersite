@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: rgb(135, 201, 165);
+    height: 385vh;
+}
+
+           /*  NAVBAR   */
+.navbar{
+    background-color: #195544;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 50px;
+    margin: 0 20px;
+}
+.navbar .logo a{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: "Madimi One", sans-serif;
+}
+ .navbar .logo :hover{
+    color: #7ad2b9;
+ }
+
+nav ul {
+   display: flex;
+}
+nav ul li {
+    margin: 0 25px;
+    list-style: none;
+    font-family: "RubiK", sans-serif;
+}
+nav ul li :hover,
+nav ul .active{
+    color: #7ad2b9;
+    text-decoration: underline yellow ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+             /*MAIN content*/
+             
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}   
+.col-2{
+    padding: 0 100px;
+    padding-top:40px ;
+}
+.col-2 h1{
+    color: rgb(5, 63, 50);
+    font-size: 60px;
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(25, 85, 68);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.3s;
+
+}
+ a {
+    text-decoration: none;
+}
+.btn:hover{
+    background: rgb(135, 201, 165);
+    border: dotted 1px black;
+}
+
+.container{
+   max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+
+
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4:hover{
+    transform: translatey(-5px)
+}
+.col-4 img{
+    width: 100%;
+
+}
+h3{
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+}
+.rating{
+    text-align: center;
+}
+.col-4 p {
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    
+}
+
+.title{
+    font-family: "Madimi One", sans-serif;
+    color: #000000;
+}
+
+.btn-2 {
+    display: block;
+    background: rgb(25, 85, 68);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 4px 0;
+    border-radius: 30px;
+    transition: background 0.3s;
+    text-align: center;
+}
+.btn-2 :hover{
+    background: rgb(135, 201, 165);
+    border: dotted 1px black;
+}
+.col-4 a{
+    font-family: "Madimi One", sans-serif;
+    color:rgb(217, 220, 219);
+}
+
+
+.rrow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}   
+.ccol-2{
+    padding: 0 10px;
+    padding-top:5px ;
+}
+.ccol-2 h1{
+    color: rgb(5, 63, 50);
+    font-size: 60px;
+}
+
+
+footer{
+    height: 300px;
+    width: 100%;
+    margin-top:100px ;
+    background-color: #195544;
+}
+
+footer .blocks{
+    display: flex;
+    justify-content: space-around;
+}
+footer .blocks .ajay{
+    height: 50px;
+}
+
+footer .blocks .ajay{
+    display: flex;
+    justify-content: space-around;
+    padding-top:20px ;
+    font-family: "Kanit", sans-serif;
+    color: rgb(39, 53, 45)
+    
+}
+footer .blocks .ajayh a {
+    color: rgb(135, 201, 165);
+}
+footer .blocks .ajay :hover{
+    color: aquamarine;
+}
+
+footer .blocks .ajayh{
+    height: 50px;
+}
+
+footer .blocks .ajayh{
+    display: flex;
+    justify-content: space-around;
+    padding-top:20px ;
+    font-family: "Kanit", sans-serif;
+    color: rgb(135, 201, 165)
+    
+}
+/*
+footer .footnav .navli{
+    display: flex;
+    justify-content: space-around;
+    padding-top:20px ;
+    text-align: center;
+}
+footer .footnav .navli li{
+    list-style: none;
+    font-family: "Kanit", sans-serif;
+    color: rgb(148, 177, 161);
+    
+}*/

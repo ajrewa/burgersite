@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: rgb(135, 201, 165);
+    height: 337vh;
+}
+
+           /*  NAVBAR   */
+.navbar{
+    background-color: #195544;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 50px;
+    margin: 0 20px;
+}
+.navbar .logo a{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: "Madimi One", sans-serif;
+}
+ .navbar .logo :hover{
+    color: #7ad2b9;
+}
+nav ul {
+    display: flex;
+ }
+ nav ul li {
+     margin: 0 25px;
+     list-style: none;
+     font-family: "RubiK", sans-serif;
+ }
+ nav ul li :hover,
+ nav ul .active{
+     color: #7ad2b9;
+     text-decoration: underline yellow;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+                                     /*MAIN content*/
+             
+.contain-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    
+}   
+.row-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}   
+.col-1-txt{
+    padding: 100px 10px 0 50px;
+}
+.col-1-txt h1{
+    color: rgb(5, 63, 50);
+    font-size: 60px;
+}
+.col-1-txt p {
+    font-size: 17px;
+}
+.col-1-img{
+    padding: 10px 10px 0 50px;
+}
+.col-1-img1{
+    padding: 10px 10px 0 50px;
+}
+.col-1-txt1 {
+    font-size: 17px;
+    padding: 100px 10px 0 50px;
+}
+.col-1-txt2{
+    padding: 150px 10px 0 50px;
+}
+.col-1-txt2 h1{
+    color: rgb(5, 63, 50);
+    font-size: 60px;
+}
+.col-1-txt2 p {
+    font-size: 17px;
+}
+.col-1-img2{
+    padding: 0 0 0 10px;
+}
+ a {
+    text-decoration: none;
+}
+.container{
+   max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title{
+    font-family: "Madimi One", sans-serif;
+    color: #000000;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    margin-top:100px ;
+    background-color: #195544;
+}
+
+footer .blocks{
+    display: flex;
+    justify-content: space-around;
+}
+footer .blocks .ajay{
+    height: 50px;
+}
+
+footer .blocks .ajay{
+    display: flex;
+    justify-content: space-around;
+    padding-top:20px ;
+    font-family: "Kanit", sans-serif;
+    color: rgb(39, 53, 45)
+    
+}
+footer .blocks .ajayh a {
+    color: rgb(135, 201, 165);
+}
+footer .blocks .ajay :hover{
+    color: aquamarine;
+}
+
+footer .blocks .ajayh{
+    height: 50px;
+}
+
+footer .blocks .ajayh{
+    display: flex;
+    justify-content: space-around;
+    padding-top:20px ;
+    font-family: "Kanit", sans-serif;
+    color: rgb(135, 201, 165)
+}
